@@ -1,69 +1,94 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Faiza's Voice</title>
-
-<style>
-    body{
-        font-family: Arial, sans-serif;
-        background: #f3f3f3;
-        margin:0;
-        padding:0;
-    }
-
-    .container{
-        max-width: 700px;
-        margin: auto;
-        padding:20px;
-    }
-
-    h1{
-        text-align:center;
-        margin-top:30px;
-        font-size:35px;
-    }
-
-    .box{
-        background:white;
-        padding:20px;
-        margin-top:20px;
-        border-radius:12px;
-        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-    }
-
-    h2{
-        margin-top:0;
-    }
-
-    a{
-        color:#0066cc;
-        text-decoration:none;
-        font-size:16px;
-        word-wrap:break-word;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #451952, #662549);
+        }
+        header h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+        header p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #d44d92;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
 </head>
-
 <body>
-<div class="container">
-    <h1>Faiza's Voice</h1>
 
-    <div class="box">
-        <h2>About Faiza</h2>
-        <p>এখানে Faiza একজন দশম শ্রেণির শিক্ষার্থী। পড়াশোনার পাশাপাশি শব্দের বলে ভয়েস কভার ও বিভিন্ন ধরনের চিত্রাঙ্কন করে। তুলির রঙে রঙ দিয়ে তলে তলে ধরার চেষ্টা করে।</p>
-    </div>
+<header>
+    <h1>🎨 Faiza – Artist Portfolio</h1>
+    <p>Painter | Digital Artist | Creative Soul</p>
+</header>
 
-    <div class="box">
-        <h2>Art / Voice Samples</h2>
-        <a href="https://www.facebook.com/share/v/17Wp1ZfTNi/">Faiza’s Works দেখুন</a>
-    </div>
+<div class="section">
+    <h2>About Me</h2>
+    <p>
+        Hi, I am Faiza. I am an artist who expresses emotions through colors and creativity.
+        I love painting, sketching and creating digital artworks. Welcome to my world of art!
+    </p>
+</div>
 
-    <div class="box">
-        <h2>Contact</h2>
-        <p>Email: Faizavoice0.2@gmail.com</p>
+<div class="section">
+    <h2>My Artwork</h2>
+    <div class="gallery">
+        <img src="https://i.imgur.com/1R8mCqf.jpg" alt="Art1">
+        <img src="https://i.imgur.com/BJ3fJHJ.jpg" alt="Art2">
+        <img src="https://i.imgur.com/7pgo5Gj.jpg" alt="Art3">
+        <img src="https://i.imgur.com/FehaHzh.jpg" alt="Art4">
     </div>
 </div>
+
+<div class="section">
+    <h2>Contact Me</h2>
+    <p>Email: faizavoice@gmail.com</p>
+    <a class="btn" href="mailto:faizavoice@gmail.com">Send Message</a>
+</div>
+
+<footer>
+    © 2025 Faiza | All Rights Reserved
+</footer>
+
 </body>
-</html>
+</html
